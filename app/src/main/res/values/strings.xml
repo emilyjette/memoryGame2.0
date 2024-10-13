@@ -7,6 +7,9 @@
 
     <string name="next">Next</string>
     <string name="previous">Previous</string>
+    <string name="welcomeText">Welcome to this Game</string>
+    <string name="newPlayerButton">New Player</string>
+    <string name="returningPlayerButton">Returning Player</string>
 
 
 </resources>

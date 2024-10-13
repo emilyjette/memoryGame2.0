@@ -19,11 +19,17 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        findViewById<Button>(R.id.button_welcome).setOnClickListener{
-            val intent = Intent(this, SecondActivity::class.java)
-            startActivity(intent)
+
+        findViewById<Button>(R.id.newPlayerButton).setOnClickListener{
+            startActivity(Intent(this,SecondActivity::class.java))
         }
+
+        findViewById<Button>(R.id.returningPlayerButton).setOnClickListener{
+            startActivity(Intent(this,SecondActivity::class.java))
+        }
+
     }
+
 }
 
 
